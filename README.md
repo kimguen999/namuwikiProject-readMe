@@ -1,5 +1,3 @@
-# namuwikiProject-readMe
-
 # 🌿 나무위키 — IoT 스마트팜 연동 식물 커뮤니티 플랫폼
 
 > 농장주와 일반 사용자를 잇는 **SNS형 식물 커뮤니티** 플랫폼
@@ -58,7 +56,6 @@
 - **react-native-daum-postcode** — 주소 검색
 
 ### 인프라 / DevOps
-- **AWS EC2** — 서버 배포
 - **AWS RDS (MariaDB)** — 클라우드 데이터베이스
 - **AWS S3** — 이미지 스토리지 (Presigned URL)
 - **GitHub Actions** — CI/CD 자동 배포
@@ -166,9 +163,9 @@
 
 #### 회원가입 & 로그인 (JWT 인증)
 
-| 회원가입 (역할 선택) | 로그인 |
-|---|---|
-| 📷 스크린샷 삽입 예정 | 📷 스크린샷 삽입 예정 |
+| 회원가입 (역할 선택) 및 로그인 |
+|------|
+|<img width="640" height="360" alt="농장주 회원가입 및 로그인" src="https://github.com/user-attachments/assets/83b47756-327f-4b03-9cec-6d4c552ee670" />|
 
 ---
 
@@ -176,85 +173,82 @@
 
 | 일반 유저 피드 | 농장주 피드 |
 |---|---|
-| 📷 스크린샷 삽입 예정 | 📷 스크린샷 삽입 예정 |
+| <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/7346e5c1-d62b-4bfa-b8fe-9f1764a756ce" />|<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/50c08148-2c3f-469d-94e4-3c2b49f7629e" />|
 
 ---
 
-#### 피드 상세 페이지 — 댓글 · 좋아요 (시연 영상)
+#### 피드 상세 페이지 — 댓글 · 좋아요 · 팔로우기능 (시연 영상)
 
-🎥 **[ 시연 영상 삽입 예정 ]**
-
----
-
-#### 마이페이지 — 프로필 수정 (시연 영상)
-
-🎥 **[ 시연 영상 삽입 예정 ]**
+<img width="640" height="360" alt="KakaoTalk_20260512_144235264" src="https://github.com/user-attachments/assets/107d7025-a907-4249-b462-8595769226e8" />
 
 ---
 
-### 📱 App — 일반 사용자 기능
+#### 마이페이지 — 프로필 수정 · 내 활동 기록 (시연 영상)
 
-#### 홈 화면 날씨 배너 / 농장 탐색 / 팔로우
-
-📷 **[ 스크린샷 삽입 예정 ]**
+<img width="640" height="360" alt="KakaoTalk_20260512_150904304" src="https://github.com/user-attachments/assets/0c0dd6e5-8076-4ba5-bdb5-92b80484e1a5" />
 
 ---
 
-#### 작물 건강 상태 조회 (센서 데이터)
+#### DM기능 — 실시간 채팅 (시연 영상)
 
-📷 **[ 스크린샷 삽입 예정 ]**
-
----
-
-#### SNS 피드 / 댓글 / 좋아요
-
-📷 **[ 스크린샷 삽입 예정 ]**
+<img width="640" height="360" alt="DM_기능_9MB" src="https://github.com/user-attachments/assets/307f4da5-8bfd-4173-83a5-c88bd312207e" />
 
 ---
 
-#### DM 채팅 / 실시간 알림
-
-📷 **[ 스크린샷 삽입 예정 ]**
-
----
-
-### 📱 App — 농장주 기능
-
-#### 내 농장 관리 (농장 · 작물 등록)
-
-📷 **[ 스크린샷 삽입 예정 ]**
-
----
-
-#### 기기 관리 (IoT 디바이스 등록 · 연결)
-
-📷 **[ 스크린샷 삽입 예정 ]**
-
----
-
-#### 센서 데이터 모니터링 + 히스토리 차트
-
-📷 **[ 스크린샷 삽입 예정 ]**
-
----
-
-#### 기기 원격 제어
-
-📷 **[ 스크린샷 삽입 예정 ]**
-
----
-
-### 🛠️ App — 관리자 기능
+### 🛠️ Web — 관리자 기능
 
 #### 회원 관리 — 관리자 추가 · 권한 변경 (시연 영상)
 
-🎥 **[ 시연 영상 삽입 예정 ]**
+<img width="640" height="360" alt="KakaoTalk_20260512_125216918" src="https://github.com/user-attachments/assets/706ef967-96f3-42de-8c31-cda6739de73b" />
 
 ---
 
 #### 게시글 관리 (시연 영상)
 
-🎥 **[ 시연 영상 삽입 예정 ]**
+<img width="640" height="360" alt="KakaoTalk_20260512_143114680" src="https://github.com/user-attachments/assets/9df4794f-af82-40dc-a7ec-cb74f76fab06" />
+
+---
+
+#### 농장주 인증번호 생성
+
+<img width="640" height="360" alt="농장주인증번호생성" src="https://github.com/user-attachments/assets/4b6afe85-134d-4cca-bb26-c10a07d3798d" />
+
+---
+
+### 📱 App 기능
+
+### 🔐 로그인
+<img width="640" height="360" alt="앱 로그인" src="https://github.com/user-attachments/assets/b2ee60a1-51cb-439b-91aa-48c5cd5b03d2" />
+
+### 🏠 홈 피드 (무한스크롤)
+<img width="640" height="360" alt="홈피드 - 무한스크롤" src="https://github.com/user-attachments/assets/d3e254db-d367-4386-8640-5ee458de3608" />
+
+### 🌡️ 센서 데이터 모니터링
+<img width="640" height="360" alt="SensorDataMonitoring-1-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/4581bac3-2f9e-445d-83e3-4146eef1155c" />
+
+### 👨‍🌾 일반사용자 농작물 건강도 조회
+<img width="640" height="360" alt="일반사용자 농작물 조회" src="https://github.com/user-attachments/assets/42d5744f-d262-47f3-b88e-cc1b9f240b93" />
+
+### ⚙️ 임계값 변경
+<img width="640" height="360" alt="임계값변경" src="https://github.com/user-attachments/assets/d00d3382-2401-4bcb-b9c4-85cd3d7569bd" />
+
+### 🟢 기기 수동 ON
+<img width="640" height="360" alt="기기수동 on" src="https://github.com/user-attachments/assets/952d2843-ca51-4e35-a10c-4f8c318cf5ef" />
+
+### 🔴 기기 수동 OFF
+<img width="640" height="360" alt="기기수동 off" src="https://github.com/user-attachments/assets/1dadfdd2-c8b2-4a8f-83e8-75d617a86915" />
+
+### 🛠️ 기기 자동 제어
+<img width="640" height="360" alt="기기 자동 제어" src="https://github.com/user-attachments/assets/56541221-3cd3-4acf-a52e-a0553f65e105" />
+
+### 💬 실시간 DM 채팅
+<img width="640" height="360" alt="실시간 DM" src="https://github.com/user-attachments/assets/e92a54a4-4790-4c4d-8b1d-f612f32fb7c6" />
+
+### 👤 프로필
+<img width="640" height="360" alt="프로필" src="https://github.com/user-attachments/assets/f13e5393-e73c-40df-8e3f-2a4f90a09372" />
+
+### 👤 팔로우
+<img width="640" height="360" alt="팔로우" src="https://github.com/user-attachments/assets/9cc8bfd1-2955-43b5-8567-5194bdb39c3a" />
 
 ---
 
@@ -357,7 +351,8 @@ npx expo start
 
 | 웹 화면 설계 | 모바일 화면 설계 |
 |---|---|
-| 📷 스크린샷 삽입 예정 | 📷 스크린샷 삽입 예정 |
+| <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/c701cc14-fb9e-4c44-be29-2045ae3c0a40" />|<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/feaacec2-33e4-4f13-b3e1-62f5c73986cb" />
+|
 
 ---
 
@@ -365,9 +360,9 @@ npx expo start
 
 도메인별 엔드포인트, 요청/응답 형식, 인증 여부를 사전 정의해 프론트엔드 · 앱 · 백엔드 동시 개발 진행
 
-| API 명세서 전체 | 도메인별 상세 |
-|---|---|
-| 📷 스크린샷 삽입 예정 | 📷 스크린샷 삽입 예정 |
+| API 명세서 전체 |
+|------|
+| <img width="400" height="563" alt="API명세서" src="https://github.com/user-attachments/assets/27a5cadb-2a63-458f-a7cb-477e7bf9e20a" />|
 
 ---
 
@@ -375,9 +370,10 @@ npx expo start
 
 일정 공유, 이슈 논의, 진행 상황 공유 등 팀 전체 소통 채널로 활용
 
-| Slack 채널 | 이슈 / 진행 공유 |
-|---|---|
-| 📷 스크린샷 삽입 예정 | 📷 스크린샷 삽입 예정 |
+| Slack 채널 및 이슈 / 진행 공유 |
+|------|
+| <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/54845634-dd19-46ba-9ba7-ae1e2b5fc311" />
+ | <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/6cf7cace-7c0c-4460-9017-ca7ec9e63769" />|
 
 ---
 
